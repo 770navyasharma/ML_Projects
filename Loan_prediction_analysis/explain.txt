@@ -1,0 +1,7 @@
+==>Dataset Information
+
+Dream Housing Finance company deals in all home loans. They have a presence across all urban, semi-urban and rural 
+areas. Customer-first applies for a home loan after that company validates the customer's eligibility for a loan. 
+The company wants to automate the loan eligibility process (real-time) based on customer detail provided while filling
+ out the online application form.
+
