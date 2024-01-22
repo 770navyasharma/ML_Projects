@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/predict" method="POST">
+        <b>Sepal Length:</b> <input type="number" name="sepal_length"><br><br>
+        <b>Sepal Width:</b> <input type="text" name="sepal_width"><br><br>
+        <b>Petal Length:</b> <input type="text" name="petal_length"><br><br>
+        <b>Petal Width:</b> <input type="text" name="petal_width"><br><br>
+        <b>Class:</b> <strong><em>{{result}}</em></strong> <br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
